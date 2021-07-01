@@ -5,7 +5,7 @@ The goal of this project is to predict survival times of patients using gene exp
 
 Autoencoder is an unsupervised artificial neural network that learns how to efficiently compress and encode data then learns how to reconstruct the data back from the reduced encoded representation to a representation that is as close to the original input as possible. For higher dimensional data, autoencoders are capable of learning a complex representation of the data (manifold) which can be used to describe observations in a lower dimensionality and correspondingly decoded into the original input space.
 
-Denoised Autoencoder.py has the implementation of standard and denoised autoencoder where user will be able to select the number of layers, layer size and activations for the autoencoder. The variational autoenocoder file implements variational autoencoder.
+Denoised Autoencoder.py has the implementation of standard and denoised autoencoder where user will be able to select the number of layers, layer size and activations for the autoencoder. The variational autoenocoder ipython file implements variational autoencoder.
 
 The reduced output has been used in weibull.py file, where these features were merged with clinicla features of patients. After preprocessing, the final data has 500*10 dimensional data. We used weibull AFT model to predict expectation of survival. Finally, a c-index has been used to evaluate our prediction.
 
